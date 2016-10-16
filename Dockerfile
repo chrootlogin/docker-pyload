@@ -27,7 +27,8 @@ RUN addgroup -g ${GID} pyload \
 
 RUN mkdir /opt \
   && cd /opt \
-  && git clone https://github.com/pyload/pyload.git
+  && git clone https://github.com/pyload/pyload.git --depth 1 -b stable -o pyload \
+  && rm -rf pyload/.git
 
 RUN pip install \
   baker \
