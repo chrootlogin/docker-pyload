@@ -13,4 +13,6 @@ then
         rm /config/pyload.pid
 fi
 
+chown -R pyload:pyload /config
+
 exec su - pyload -c "/opt/pyload/pyLoadCore.py --configdir=/config"
