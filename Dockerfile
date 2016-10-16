@@ -24,7 +24,7 @@ RUN apk add --update \
   git
 
 RUN addgroup -g ${GID} pyload \
-  && adduser -u ${UID} -h /opt/pyload -H -G pyload -s /sbin/nologin -D pyload
+  && adduser -u ${UID} -h /opt/pyload -H -G pyload -s /bin/sh -D pyload
 
 RUN mkdir /opt \
   && cd /opt \
