@@ -25,7 +25,8 @@ RUN apk add --update \
 RUN addgroup -g ${GID} pyload \
   && adduser -u ${UID} -h /opt/pyload -H -G pyload -s /sbin/nologin -D pyload
 
-RUN cd /opt \
+RUN mkdir /opt \
+  && cd /opt \
   && git clone https://github.com/pyload/pyload.git
 
 RUN pip install \
