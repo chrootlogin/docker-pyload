@@ -24,7 +24,7 @@ Everything is bundled in the newest stable version.
 ### Tags
 
 * **latest**: latest released stable PyLoad version
-* **git**: latest stable PyLoad version from git
+* **latest-git**: latest stable PyLoad version from git
 * **vX.X.X**: stable version tags of Pyload (e.g. v0.4.9)
 
 ### Build-time arguments
