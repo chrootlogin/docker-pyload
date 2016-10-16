@@ -34,7 +34,7 @@ Everything is bundled in the newest stable version.
 
 ### Exposed ports
 
-* **80**: PyLoad Webserver
+* **8000**: PyLoad Webserver
 
 ### Volumes
 
