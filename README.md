@@ -4,7 +4,7 @@
 
 [![](https://images.microbadger.com/badges/version/rootlogin/pyload.svg)](https://microbadger.com/images/rootlogin/pyload "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/rootlogin/pyload.svg)](https://microbadger.com/images/rootlogin/pyload "Get your own image badge on microbadger.com")
 
-Dockerized PyLoad download manager.
+Dockerized [PyLoad](https://github.com/pyload/pyload) download manager.
 
 ## Container environment
 
