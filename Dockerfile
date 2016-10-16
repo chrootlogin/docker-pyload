@@ -7,6 +7,7 @@ ARG GID=1502
 RUN apk add --update \
   wget \
   curl \
+  unrar \
   py-curl \
   py-simplejson \
   py-feedparser \
