@@ -25,7 +25,7 @@ RUN apk add --update \
   jpeg-dev
 
 RUN addgroup -g ${GID} pyload \
-  && adduser -u ${UID} -h /opt/pyload -H -G pyload -s /sbin/nologin -D pyload
+  && adduser -u ${UID} -h /opt/pyload -H -G pyload -s /bin/sh -D pyload
 
 RUN cd /tmp \
   && wget -q http://github.com/pyload/pyload/releases/download/v${PYLOAD_VERSION}/pyload-src-v${PYLOAD_VERSION}.zip \
