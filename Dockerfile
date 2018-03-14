@@ -1,5 +1,5 @@
 FROM rootlogin/python2:latest
-MAINTAINER Simon Erhardt <me+docker@rootlogin.ch>
+LABEL maintainer="Simon Erhardt <me+docker@rootlogin.ch>"
 
 ARG PYLOAD_SHA512="6265602073279763c5393b958ec2cc6825d51e872556d2f2141db1e2afd9a2aaded8275aac0576526f96863d768bc9ff3669e7ff31e7b9fb5c5f655bba920a8e"
 ARG PYLOAD_VERSION=0.4.9
